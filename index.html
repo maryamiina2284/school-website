@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollreveal/4.0.9/scrollreveal.min.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <a href="/">
+          <img src="images/img.png" 
+               alt="Brand logo"> 
+                  <span class="brand-logo-name">
+                  Reza School
+                  </span>
+          </a>
+        <nav class="navbar">
+            <ul class="navbar-lists" id="myTopnav">
+                <li>
+                      <i class="fas fa-home"></i>
+                          <a class="navbar-link home-link" href="#">
+                              Home</a>
+                  </li>
+                <li>
+                      <i class="fas fa-user"></i>
+                          <a class="navbar-link about-link" 
+                           href="#about-us-section">
+                              About Us
+                          </a>
+                </li>
+                <li>
+                      <i class="fas fa-envelope"></i>
+                          <a class="navbar-link contact-link" 
+                           href="#contact-form">
+                          Contact Us
+                          </a>
+                  </li>
+                <li>
+                      <i class="fas fa-bullhorn"></i>
+                          <a class="navbar-link service-link" 
+                           href="#notice-bord-sction">
+                          Notice Board
+                          </a>
+                  </li>
+                <li><i class="fas fa-map-marked-alt"></i>
+                      <a class="navbar-link contact-link"
+                       href="#campus-on-map">
+                      Our Campus
+                      </a>
+                  </li>
+            </ul>
+            <a href="javascript:void(0);" 
+               class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="school-img-container">
+            <div class="img-container">
+                <img src="images/rezaschool.png"
+                     alt="school img" class="school-img">
+                <h1 class="img-title">
+                  Welcome to Reza School
+                  </h1>
+            </div>
+        </div>
+
+        <section id="vision">
+            <h2 class="vision-heading">Our Vision</h2>
+            <p>At reza, we envision a learning community where every 
+                student is inspired to reach their full potential. We
+                strive to cultivate a nurturing environment that fosters
+                  curiosity, creativity, and critical thinking skills.
+                Our aim is to empower students to become lifelong learners,
+                  compassionate leaders, and responsible global citizens. 
+                  Through innovative teaching methods, personalized support,
+                  and a diverse range of opportunities
+            </p>
+        </section>
+
+        <div class="main-notice-section" 
+             id="notice-bord-sction">
+            <div class="notice-container">
+            <div class="school-highlights">
+  <h2 class="highlight-heading">What Makes Us Special</h2>
+  <div class="highlight-boxes">
+    <div class="box">
+      <i class="fa fa-lightbulb"></i>
+      <p>Creative & Critical Thinking Skills</p>
+    </div>
+    <div class="box">
+      <i class="fa fa-globe"></i>
+      <p>Modern Digital Learning Environment</p>
+    </div>
+    <div class="box">
+      <i class="fa fa-heart"></i>
+      <p>Safe, Friendly Campus for Everyone</p>
+    </div>
+    <div class="box">
+      <i class="fa fa-book"></i>
+      <p>Access to Quality Learning Materials</p>
+    </div>
+    <div class="box">
+      <i class="fa fa-chalkboard-teacher"></i>
+      <p>Experienced & Passionate Instructors</p>
+    </div>
+  </div>
+</div>
+
+
+
+                <!-- Events Section -->
+                <div class="event-card">
+  <h2 class="event-heading">Upcoming Events</h2>
+  <div class="event-details horizontal-events">
+    <div class="event reveal">
+      <h3>Event Name 1</h3>
+      <p><strong>Date:</strong> April 15, 2024</p>
+      <p><strong>Time:</strong> 9:00 AM - 12:00 PM</p>
+      <p><strong>Location:</strong> School Auditorium</p>
+      <p><strong>Description:</strong> Quiz competition.</p>
+    </div>
+    <div class="event reveal">
+      <h3>Event Name 2</h3>
+      <p><strong>Date:</strong> April 20, 2025</p>
+      <p><strong>Time:</strong> 2:00 PM - 5:00 PM</p>
+      <p><strong>Location:</strong> Sports Ground</p>
+      <p><strong>Description:</strong> Cricket tournament.</p>
+    </div>
+    <div class="event reveal">
+      <h3>Event Name 3</h3>
+      <p><strong>Date:</strong> April 25, 2025</p>
+      <p><strong>Time:</strong> 10:00 AM - 1:00 PM</p>
+      <p><strong>Location:</strong> School Auditorium</p>
+      <p><strong>Description:</strong> Science fair.</p>
+    </div>
+
+    <div class="event reveal">
+      <h3>Event Name 4</h3>
+      <p><strong>Date:</strong> April 30, 2025</p>
+      <p><strong>Time:</strong> 1:00 PM - 4:00 PM</p>
+      <p><strong>Location:</strong> School Auditorium</p>
+      <p><strong>Description:</strong> Art exhibition.</p>
+      </div>
+    
+  </div>
+</div>
+
+            </div>
+        </div>
+
+        <section id="about-us-section">
+            <div class="about-us-container">
+                <h2 class="aboutus-heading">About Us</h2>
+                <p>
+                    <strong class="subheading"> 
+                          Company Profile and Brand: 
+                      </strong>
+                    Reza is a leading platform that 
+                      provides computer science resources and 
+                      coding challenges for programmers and 
+                      technology enthusiasts, along with interview
+                      and exam preparations for upcoming aspirants.
+                    With a strong emphasis on enhancing coding 
+                      skills and knowledge, it has become a trusted
+                      destination for over 12 million plus registered 
+                      users worldwide.
+                </p>
+            </div>
+        </section>
+
+        <section class="why-choose-us">
+  <h2 class="location-heading">Why Choose Reza School?</h2>
+  <div class="choose-boxes">
+    <div class="box"><i class="fa fa-check-circle"></i> Expert Instructors</div>
+    <div class="box"><i class="fa fa-star"></i> Quality Learning</div>
+    <div class="box"><i class="fa fa-clock"></i> Flexible Schedule</div>
+    <div class="box"><i class="fa fa-certificate"></i> Certified Programs</div>
+  </div>
+</section>
+
+
+        <section id="contact-form" style="margin-top: 50px; margin-bottom: 50px;">
+            <h2 class="contact-form-heading">
+              Contact Us Form
+              </h2>
+            <div class="container">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="fullName">
+                          Full Name
+                          </label>
+                        <input type="text" id="fullName" 
+                               name="fullName" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email"
+                               name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="text" id="phone" 
+                               name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" 
+                                  required>
+                          </textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My School. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
